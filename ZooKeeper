@@ -1,0 +1,8 @@
+ZooKeeper - hadoop distributed coordination service.
+It's give us a set of tools to build distributed application that can safely handle partial failures.
+It helps to keep all task in synchronize mode and make a reliable application. Zookeeper coordinates all nodes in a cluster.
+ZooKeeper::
+  Maintaining configuration info - Sharing config info to all nodes
+  Naming - Find a machine in a cluster of 1000 server
+  Providing group service - Leader election and more
+  Providing distributed synchronization
