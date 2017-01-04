@@ -1,1 +1,18 @@
-HDFS
+HDFS - Hadoop distributed file system
+	File system that manages the storage across a network of machines are called distributed file system.
+HDFS Suits for::
+	Very large files
+	Streaming data access
+	Commodity hardware
+HDFS not suit for::
+	Low-latency data access
+	Lots of small files
+	Multiple writers, arbitrary file modifications
+	
+HDFS Concepts::
+
+BLOCKS::
+	A disk has a block size, which is the minimum amount of data that it can read or write.(512kb)
+	HDFS Blocks are larger compared to disk blocks, and the reason is to minimize the seek time.
+
+Master && Worker::
